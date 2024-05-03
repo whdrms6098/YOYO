@@ -5,12 +5,12 @@ html {
     --color-white: #fff;
     --color-orange: #C4781C;
     --color-light-green: #B7CF61;
+    --color-yellow: #EDC155
 }
 
 body {
     font-family: "Kanit", sans-serif;
     line-height: 1.5;
-    height: 6000px;
     box-sizing: border-box;
     font-size: 16px;
     word-break: keep-all;
@@ -22,6 +22,7 @@ main {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 ul {
@@ -211,6 +212,10 @@ nav ul li {
     color: var(--color-brown);
     cursor: pointer;
     transition: .2s;
+}
+
+nav ul li.active {
+    color: #D64027;
 }
 
 nav ul li:hover {
@@ -1502,14 +1507,14 @@ footer .footer-copyright img {
     }
 
     .about {
-        min-height: 800px;
+        min-height: 737px;
         height: auto;
-        padding-bottom: 50px;
         box-sizing: border-box;
     }
 
     .about .description .btn {
         width: 100%;
+        max-width: 400px;
         font-size: 14px;
     }
 

@@ -5,7 +5,8 @@ html {
     --color-white: #fff;
     --color-orange: #C4781C;
     --color-light-green: #B7CF61;
-    --color-yellow: #EDC155
+    --color-yellow: #EDC155;
+    --color-light-yeloow: #ECE1A9;
 }
 
 body {
@@ -84,6 +85,12 @@ picture {
     font-size: 72px;
     color: var(--color-brown);
     line-height: 1.5;
+    font-weight: 800;
+}
+
+.description h3 {
+    font-size: 38px;
+    color: var(--color-brown);
     font-weight: 800;
 }
 
@@ -950,6 +957,12 @@ footer .footer-container .f-menu>ul>li ul li {
     color: var(--color-brown);
     font-weight: 500;
     margin-bottom: 8px;
+    transition: .2s;
+}
+
+
+footer .footer-container .f-menu>ul>li ul li:hover {
+    color: #D64027;
 }
 
 footer .footer-container .footer-wedget .footer-inputs {

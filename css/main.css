@@ -38,7 +38,7 @@ input {
     outline: none;
 }
 
-picture {
+.picture {
     position: absolute;
 }
 
@@ -273,13 +273,14 @@ nav ul li:hover {
     color: var(--color-white);
 }
 
-.explore picture.yoyo {
+.explore .yoyo {
     transition-duration: .4s;
+    position: absolute;
     right: 0;
     bottom: -40px;
 }
 
-.explore picture.yoyo img {
+.explore .yoyo img {
     width: 600px;
 }
 
@@ -287,11 +288,12 @@ nav ul li:hover {
     position: relative;
 }
 
-.series picture.wheat {
+.series .wheat {
+    position: absolute;
     top: -300px;
 }
 
-.series picture.wheat img {
+.series .wheat img {
     max-width: 100%;
 }
 
@@ -643,23 +645,23 @@ nav ul li:hover {
     position: relative;
 }
 
-.products .products-wrap .products-img picture {
+.products .products-wrap .products-img .picture {
     top: 35px;
     left: 0;
 }
 
-.products .products-wrap .products-img picture img {
+.products .products-wrap .products-img .picture img {
     position: absolute;
     transition: .4s;
     visibility: hidden;
     opacity: 0;
 }
 
-.products .products-wrap .products-img picture .prod--japanese {
+.products .products-wrap .products-img .picture .prod--japanese {
     left: 40px;
 }
 
-.products .products-wrap .products-img picture img.show {
+.products .products-wrap .products-img .picture img.show {
     visibility: visible;
     opacity: 1;
 }
@@ -1043,11 +1045,11 @@ footer .footer-copyright img {
         margin-top: -20px;
     }
 
-    .explore picture.yoyo {
+    .explore .yoyo {
         bottom: 0;
     }
 
-    .explore picture.yoyo img {
+    .explore .yoyo img {
         width: 500px;
     }
 
@@ -1114,14 +1116,14 @@ footer .footer-copyright img {
         width: 100%;
     }
 
-    .products .products-wrap .products-img picture {
+    .products .products-wrap .products-img .picture {
         width: 100%;
         height: 100%;
         top: 14px;
         left: -15px;
     }
 
-    .products .products-wrap .products-img picture .prod--japanese {
+    .products .products-wrap .products-img .picture .prod--japanese {
         left: 30px;
     }
 
@@ -1169,7 +1171,7 @@ footer .footer-copyright img {
         font-size: 50px;
     }
 
-    .explore picture.yoyo img {
+    .explore .yoyo img {
         width: 400px;
         bottom: 50px;
     }
@@ -1178,7 +1180,7 @@ footer .footer-copyright img {
         margin-bottom: 180px;
     }
 
-    .series picture.wheat {
+    .series .wheat {
         top: -150px;
     }
 
@@ -1313,7 +1315,7 @@ footer .footer-copyright img {
         display: block;
     }
 
-    .products .products-wrap .products-img picture {
+    .products .products-wrap .products-img .picture {
         display: none;
     }
 
@@ -1462,7 +1464,7 @@ footer .footer-copyright img {
         width: 100%;
     }
 
-    .explore picture.yoyo img {
+    .explore .yoyo img {
         width: 280px;
     }
 
@@ -1472,7 +1474,7 @@ footer .footer-copyright img {
         margin: 0;
     }
 
-    .series picture.wheat img {
+    .series .wheat img {
         min-width: 480px;
     }
 

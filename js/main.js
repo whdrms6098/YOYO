@@ -1,4 +1,4 @@
-const yoyo = document.querySelector("picture.yoyo");
+const yoyo = document.querySelector(".yoyo");
 const exploreBg = document.querySelector(".explore-bg");
 const noodles = document.querySelector(".noodles");
 

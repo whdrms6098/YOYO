@@ -72,3 +72,7 @@ $(document).ready(function () {
     checkWindowSize();
   });
 });
+
+$("#about").click(function () {
+  window.location.href = "/about";
+});

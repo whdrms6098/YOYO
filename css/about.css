@@ -1,4 +1,4 @@
-picture {
+.picture {
     position: static;
 }
 
@@ -32,7 +32,7 @@ picture {
     flex-direction: column;
 }
 
-.story .story-wrap .story-left picture {
+.story .story-wrap .story-left .picture {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,7 +84,7 @@ picture {
     transform: translate(-100px, -290px);
 }
 
-.story .story-wrap:nth-child(2) .story-left picture {
+.story .story-wrap:nth-child(2) .story-left .picture {
     padding-bottom: 231px;
 }
 
@@ -108,7 +108,7 @@ picture {
     position: relative;
 }
 
-.story .story-road picture .yoyo {
+.story .story-road .picture .yoyo {
     width: 473px;
     position: absolute;
     right: 0;
@@ -274,10 +274,12 @@ picture {
 .production .production-process .production-process-img {
     overflow: hidden;
     margin-top: 30px;
+    display: flex;
+    gap: 30px;
 }
 
 .production .production-process .production-process-img img {
-    animation: scrollAnimation 25s infinite forwards;
+    animation: scrollAnimation 30s infinite linear;
 }
 
 .production .production-process .production-process-img img {
@@ -313,7 +315,7 @@ picture {
         font-size: 16px;
     }
 
-    .story .story-wrap:nth-child(2) .story-left picture {
+    .story .story-wrap:nth-child(2) .story-left .picture {
         padding-bottom: 100px;
     }
 
@@ -332,11 +334,11 @@ picture {
         padding: 0;
     }
 
-    .story .story-road picture img:nth-child(1) {
+    .story .story-road .picture img:nth-child(1) {
         width: 150%;
     }
 
-    .story .story-road picture .yoyo {
+    .story .story-road .picture .yoyo {
         width: 350px;
     }
 
@@ -400,7 +402,7 @@ picture {
         max-width: none;
     }
 
-    .story .story-wrap .story-left picture {
+    .story .story-wrap .story-left .picture {
         display: none;
     }
 
@@ -431,11 +433,11 @@ picture {
         display: none;
     }
 
-    .story .story-road picture img:nth-child(1) {
+    .story .story-road .picture img:nth-child(1) {
         width: 100%;
     }
 
-    .story .story-road picture .yoyo {
+    .story .story-road .picture .yoyo {
         width: 270px;
         bottom: 140px;
     }
@@ -491,7 +493,7 @@ picture {
         height: 400px;
     }
 
-    .story .story-road picture .yoyo {
+    .story .story-road .picture .yoyo {
         bottom: 75px;
     }
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
     <!-- 아이콘 -->
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
 
     <!-- 폰트 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,7 +26,7 @@
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
     <!-- swiper -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css">
     <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
 
     <script defer src="../js/common.js"></script>
@@ -54,8 +54,12 @@
                 <span class="material-symbols-outlined">close_small</span>
             </div>
             <ul>
-                <li><a href="/hi-yoyo">Hi Yoyo</a></li>
-                <li class="active"><a href="/about">About us</a></li>
+                <li>
+                    <a href="/hi-yoyo">Hi Yoyo</a>
+                </li>
+                <li class="active">
+                    <a href="/about">About us</a>
+                </li>
             </ul>
         </nav>
 
@@ -64,10 +68,10 @@
                 <div class="story-wrap">
                     <div class="story-left">
                         <div class="story-items">
-                            <picture>
-                                <img src="../images/A-stickers-05-slurrrrp.svg" alt="slurrrrp" />
-                                <img src="../images/H-noodle-02-curry-laksa-01.png" alt="Curry Laksa Ramen" />
-                            </picture>
+                            <div class="picture">
+                                <img src="../images/A-stickers-05-slurrrrp.svg" alt="slurrrrp">
+                                <img src="../images/H-noodle-02-curry-laksa-01.png" alt="Curry Laksa Ramen">
+                            </div>
 
                             <div class="description">
                                 <p>At Yoy Natura, we're proud to be a company that embodies <b>sincerity</b>,
@@ -101,9 +105,9 @@
                 <div class="story-wrap">
                     <div class="story-left">
                         <div class="story-items">
-                            <picture>
-                                <img src="../images/A-stickers-02-self-care-1.svg" alt="Self Care" />
-                            </picture>
+                            <div class="picture">
+                                <img src="../images/A-stickers-02-self-care-1.svg" alt="Self Care">
+                            </div>
 
                             <div class="description">
                                 <p>We're not just focused on healthy foods, but also on healthy minds. Mental health is
@@ -136,10 +140,10 @@
             </div>
 
             <div class="story-road">
-                <picture>
+                <div class="picture">
                     <img src="../images/A-CTA-road-2048x1049.png" alt="Road">
                     <img src="../images/H-Yoyo-Cycling.png" alt="YOYO" class="yoyo">
-                </picture>
+                </div>
             </div>
 
         </section>
@@ -156,7 +160,7 @@
 
                 <div class="services-item">
                     <div class="services-item-img">
-                        <img src="../images/H-gallery-01-customizable-noodles.png" alt="Customizable Noodles" />
+                        <img src="../images/H-gallery-01-customizable-noodles.png" alt="Customizable Noodles">
                         <img src="../images/A-stickers-01-good.svg" alt="Good" class="services-item--bedge animation">
                     </div>
 
@@ -177,15 +181,15 @@
                     </div>
 
                     <div class="services-item-img">
-                        <img src="../images/H-gallery-02-oem-partnership.png" alt="OEM Partnerships" />
+                        <img src="../images/H-gallery-02-oem-partnership.png" alt="OEM Partnerships">
                     </div>
                 </div>
 
                 <div class="services-item">
                     <div class="services-item-img">
-                        <img src="../images/H-gallery-03-HoReCa.png" alt="Restaurants" />
+                        <img src="../images/H-gallery-03-HoReCa.png" alt="Restaurants">
                         <img src="../images/A-stickers-02-fun-tasty.svg" alt="Fun tasty"
-                            class="services-item--bedge animation" />
+                            class="services-item--bedge animation">
                     </div>
 
                     <div class="services-item-txt description">
@@ -205,15 +209,14 @@
                     </div>
 
                     <div class="services-item-img">
-                        <img src="../images/H-gallery-04-Groceries.png" alt="Groceries and Supermarket" />
-                        <img src="../images/A-stickers-03-cloud.svg" alt="Okay"
-                            class="services-item--bedge animation" />
+                        <img src="../images/H-gallery-04-Groceries.png" alt="Groceries and Supermarket">
+                        <img src="../images/A-stickers-03-cloud.svg" alt="Okay" class="services-item--bedge animation">
                     </div>
                 </div>
 
                 <div class="services-contact">
                     <div class="services-contact-board">
-                        <img src="../images/A-signboard.svg" alt="board" />
+                        <img src="../images/A-signboard.svg" alt="board">
                         <div class="description">
                             <p>At Yoy Natura, we are committed to providing our customers with the highest quality
                                 products
@@ -240,34 +243,30 @@
             <div class="production-process">
                 <h1>Production Process</h1>
                 <div class="production-process-img">
-                    <img src="../images/process.webp" alt="process" />
-                </div>
-                <div class="production-process-svg">
-                    <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
-                        stroke="rgb(75,30,30)" stroke-opacity="1" stroke-width="2"
-                        d=" M720,0 C720,0 720,0 720,0 C720,21.976106643676758 702.1571044921875,39.819000244140625 680.1810302734375,39.819000244140625 C680.1810302734375,39.819000244140625 -680.1810302734375,39.819000244140625 -680.1810302734375,39.819000244140625 C-702.1571044921875,39.819000244140625 -720,21.976106643676758 -720,0 C-720,0 -720,0 -720,0 C-720,-21.976106643676758 -702.1571044921875,-39.819000244140625 -680.1810302734375,-39.819000244140625 C-680.1810302734375,-39.819000244140625 680.1810302734375,-39.819000244140625 680.1810302734375,-39.819000244140625 C702.1571044921875,-39.819000244140625 720,-21.976106643676758 720,0z">
-                    </path>
+                    <img src="../images/process.webp" alt="process">
+                    <img src="../images/process.webp" alt="process">
+                    <img src="../images/process.webp" alt="process">
                 </div>
             </div>
         </section>
 
         <footer>
-            <img src="../images/footer-top.png" alt="line" class="footer--top-bg" />
+            <img src="../images/footer-top.png" alt="line" class="footer--top-bg">
             <div class="inner">
                 <div class="footer-container">
                     <div class="footer-wedget">
-                        <img src="../images/yoyo-flying-carpet.png" alt="YOYO" />
+                        <img src="../images/yoyo-flying-carpet.png" alt="YOYO">
                     </div>
                     <div class="f-menu">
                         <ul>
                             <li><span>Know More</span>
                                 <ul>
-                                    <a href="/hi-yoyo">
-                                        <li>Hi Yoyo</li>
-                                    </a>
-                                    <a href="/about">
-                                        <li>About us</li>
-                                    </a>
+                                    <li>
+                                        <a href="/hi-yoyo">Hi Yoyo</a>
+                                    </li>
+                                    <li>
+                                        <a href="/about">About us</a>
+                                    </li>
                                 </ul>
                             </li>
                             <li><span>Find Us</span>
@@ -295,15 +294,15 @@
                     </div>
                     <div class="footer-copyright">
                         <p>
-                            Copyrights © 2024 Harmony Lotus Foods (M) Sdn Bhd (1084834-H) <br />
+                            Copyrights © 2024 Harmony Lotus Foods (M) Sdn Bhd (1084834-H) <br>
                             All Rights Reserved. Designed by Jumix.
                         </p>
-                        <img src="../images/F-Icons-01-Halal.svg" alt="Halal" />
-                        <img src="../images/F-Icons-02-GMP.svg" alt="GMP" />
-                        <img src="../images/F-Icons-03-HACCP.svg" alt="HACCP" />
-                        <img src="../images/F-Icons-04-ISO22000.svg" alt="ISO 22000" />
-                        <img src="../images/F-Icons-05-Super-Health-Brand.svg" alt="Super Health Brand" />
-                        <img src="../images/F-Icons-06-Buatan-Malaysia.svg" alt="Buatan Malaysia" />
+                        <img src="../images/F-Icons-01-Halal.svg" alt="Halal">
+                        <img src="../images/F-Icons-02-GMP.svg" alt="GMP">
+                        <img src="../images/F-Icons-03-HACCP.svg" alt="HACCP">
+                        <img src="../images/F-Icons-04-ISO22000.svg" alt="ISO 22000">
+                        <img src="../images/F-Icons-05-Super-Health-Brand.svg" alt="Super Health Brand">
+                        <img src="../images/F-Icons-06-Buatan-Malaysia.svg" alt="Buatan Malaysia">
                     </div>
                 </div>
             </div>

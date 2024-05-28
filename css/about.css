@@ -544,3 +544,9 @@
     }
 
 }
+
+@-moz-document url-prefix() {
+    .production .production-process .production-process-img img {
+        width: auto;
+    }
+}

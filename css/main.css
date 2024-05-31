@@ -183,7 +183,7 @@ nav {
     max-width: 350px;
     position: fixed;
     top: 0;
-    left: 0;
+    left: -10px;
     z-index: 9;
     background-color: var(--color-yellow-green);
     box-shadow: 3px 3px 0px 0px #4B1E1E;
